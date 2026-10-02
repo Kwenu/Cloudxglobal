@@ -1,5 +1,6 @@
 import React from "react";
 import { publicAsset } from "../utils/publicAsset";
+
 const LOGO_SRC = publicAsset("WhatsApp_Image_2026-09-16_at_18.46.55.jpg");
 
 /**

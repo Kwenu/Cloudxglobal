@@ -5,5 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://kwenu.github.io/Cloudxglobal/
 export default defineConfig({
   plugins: [react()],
-  base: '/Cloudxglobal/',
+  // Relative asset URLs work both on GitHub Pages (/Cloudxglobal/) and
+  // on Vercel/custom domains (/).
+  base: './',
 })
