@@ -25,13 +25,13 @@ export function Navbar() {
       
       <nav
         aria-label="Primary"
-        className="mx-auto flex h-20 max-w-[1280px] items-center justify-between px-5 sm:px-8">
+        className="mx-auto flex h-20 max-w-[1480px] items-center justify-between px-5 sm:px-8">
         
         <a href="#home" className="shrink-0" aria-label="Cloud X Global home">
           <Logo />
         </a>
 
-        <ul className="hidden items-center gap-7 lg:flex xl:gap-9">
+        <ul className="hidden items-center gap-7 lg:flex xl:gap-12">
           {navLinks.map((link) =>
           <li key={link.label}>
               <a
