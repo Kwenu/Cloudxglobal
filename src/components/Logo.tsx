@@ -1,6 +1,6 @@
 import React from "react";
-
-const LOGO_SRC = "/WhatsApp_Image_2026-09-16_at_18.46.55.jpg";
+import { publicAsset } from "../utils/publicAsset";
+const LOGO_SRC = publicAsset("WhatsApp_Image_2026-09-16_at_18.46.55.jpg");
 
 /**
  * The supplied logo artwork sits on a large black canvas, so the globe mark is

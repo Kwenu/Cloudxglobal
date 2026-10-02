@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// GitHub Pages publishes this project as a repository site:
+// https://kwenu.github.io/Cloudxglobal/
 export default defineConfig({
   plugins: [react()],
+  base: '/Cloudxglobal/',
 })

@@ -3,6 +3,7 @@ import { ArrowRightIcon } from 'lucide-react';
 import { Reveal } from './Reveal';
 import { SectionHeading } from './SectionHeading';
 import { directors } from '../data/team';
+import { publicAsset } from '../utils/publicAsset';
 
 export function About() {
   return (
@@ -18,7 +19,7 @@ export function About() {
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-ink-border">
             <img
-              src="/df6afa16-4868-4664-943e-844eef03d42b.jpg"
+              src={publicAsset("df6afa16-4868-4664-943e-844eef03d42b.jpg")}
               alt="Abstract purple wireframe globe representing Cloud X Global's connected network"
               className="h-full w-full object-cover" />
             
