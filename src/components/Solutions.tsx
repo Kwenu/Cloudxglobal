@@ -10,7 +10,7 @@ export function Solutions() {
       id="solutions"
       className="relative w-full border-t border-white/5 bg-black py-24 sm:py-32">
       
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-8">
+      <div className="mx-auto max-w-[1480px] px-5 sm:px-8">
         <SectionHeading
           label="Featured Solutions"
           title={

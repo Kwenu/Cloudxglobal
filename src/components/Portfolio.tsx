@@ -20,7 +20,7 @@ export function Portfolio() {
       id="portfolio"
       className="relative w-full border-t border-white/5 bg-black py-24 sm:py-32">
       
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-8">
+      <div className="mx-auto max-w-[1480px] px-5 sm:px-8">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading
             label="Selected Work"

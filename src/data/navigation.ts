@@ -7,7 +7,6 @@ export const navLinks = [
 { label: 'Careers', href: '#careers' },
 { label: 'Contact', href: '#contact' }];
 
-
 export const footerColumns = [
 {
   title: 'Company',
@@ -25,7 +24,6 @@ export const footerColumns = [
   { label: 'Mobile Apps', href: '#services' },
   { label: 'Business Systems', href: '#services' },
   { label: 'Digital Marketing', href: '#services' }]
-
 },
 {
   title: 'Connect',
@@ -33,6 +31,6 @@ export const footerColumns = [
   { label: 'Facebook', href: '#contact' },
   { label: 'Instagram', href: '#contact' },
   { label: 'LinkedIn', href: '#contact' },
-  { label: 'WhatsApp', href: 'https://wa.me/94764167335' }]
+  { label: 'WhatsApp', href: 'https://wa.me/94775383699' }]
 
 }];

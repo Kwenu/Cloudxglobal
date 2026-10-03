@@ -19,7 +19,7 @@ export function Hero() {
         className="pointer-events-none absolute -right-40 top-1/2 h-[720px] w-[720px] -translate-y-1/2 rounded-full bg-purple-700/20 blur-[160px]"
         aria-hidden="true" />
 
-      <div className="relative mx-auto grid w-full max-w-[1280px] grid-cols-1 items-center gap-16 px-5 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
+      <div className="relative mx-auto grid w-full max-w-[1480px] grid-cols-1 items-center gap-16 px-5 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
         <div>
           <motion.span
             initial={{ opacity: 0, y: 12 }}

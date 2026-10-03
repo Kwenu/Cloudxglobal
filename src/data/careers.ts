@@ -9,26 +9,17 @@ export interface Role {
 
 export const openRoles: Role[] = [
 {
-  title: 'Frontend Developer',
-  type: 'Full-time',
+  title: 'Full Stack Developer',
+  type: 'Internship',
   location: 'Piliyandala / Hybrid',
   level: 'Mid-level',
   description:
-  'Build responsive, high-performance interfaces for client websites and business platforms.',
-  skills: ['React', 'TypeScript', 'Tailwind CSS']
-},
-{
-  title: 'Backend Developer',
-  type: 'Full-time',
-  location: 'Piliyandala / Hybrid',
-  level: 'Mid-level',
-  description:
-  'Design APIs, databases and integrations behind our ERP, CRM and ordering systems.',
-  skills: ['Node.js', 'PHP / Laravel', 'MySQL']
+  'Build responsive, high-performance interfaces for client websites and business platforms, Design APIs, databases and integrations behind our ERP, CRM and ordering systems.',
+  skills: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PHP / Laravel', 'MySQL']
 },
 {
   title: 'Mobile App Developer',
-  type: 'Full-time',
+  type: 'Internship',
   location: 'Piliyandala / Remote',
   level: 'Mid-level',
   description:
@@ -37,21 +28,12 @@ export const openRoles: Role[] = [
 },
 {
   title: 'UI/UX Designer',
-  type: 'Full-time',
+  type: 'Internship',
   location: 'Piliyandala / Hybrid',
   level: 'Junior – Mid',
   description:
   'Shape product flows, wireframes and polished interfaces for web and mobile projects.',
   skills: ['Figma', 'Design systems', 'Prototyping']
-},
-{
-  title: 'Software Engineering Intern',
-  type: 'Internship',
-  location: 'Piliyandala',
-  level: 'Trainee',
-  description:
-  'Work alongside our developers on live client projects with mentoring from day one.',
-  skills: ['JavaScript', 'Git', 'Eagerness to learn']
 }];
 
 

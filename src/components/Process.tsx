@@ -6,7 +6,7 @@ import { processSteps } from '../data/process';
 export function Process() {
   return (
     <section className="relative w-full border-t border-white/5 bg-ink-900 py-24 sm:py-32">
-      <div className="mx-auto max-w-[1280px] px-5 sm:px-8">
+      <div className="mx-auto max-w-[1480px] px-5 sm:px-8">
         <SectionHeading
           label="Our Process"
           title={

@@ -6,7 +6,7 @@ import { capabilities } from '../data/strengths';
 export function WhoWeAre() {
   return (
     <section className="relative w-full border-t border-white/5 bg-black py-24 sm:py-32">
-      <div className="mx-auto grid max-w-[1280px] grid-cols-1 gap-14 px-5 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
+      <div className="mx-auto grid max-w-[1480px] grid-cols-1 gap-14 px-5 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
         <SectionHeading
           label="Who We Are"
           title={

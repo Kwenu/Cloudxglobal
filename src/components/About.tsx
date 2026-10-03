@@ -15,7 +15,7 @@ export function About() {
         className="pointer-events-none absolute -left-32 top-1/2 h-[560px] w-[560px] -translate-y-1/2 rounded-full bg-purple-800/15 blur-[150px]"
         aria-hidden="true" />
       
-      <div className="relative mx-auto grid max-w-[1280px] grid-cols-1 items-center gap-14 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
+      <div className="relative mx-auto grid max-w-[1480px] grid-cols-1 items-center gap-14 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
         <Reveal>
           <div className="relative overflow-hidden rounded-3xl border border-ink-border">
             <img

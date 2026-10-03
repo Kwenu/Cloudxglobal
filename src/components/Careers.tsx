@@ -23,7 +23,7 @@ export function Careers() {
         className="pointer-events-none absolute right-0 top-24 h-[480px] w-[480px] rounded-full bg-purple-800/15 blur-[150px]"
         aria-hidden="true" />
       
-      <div className="relative mx-auto max-w-[1280px] px-5 sm:px-8">
+      <div className="relative mx-auto max-w-[1480px] px-5 sm:px-8">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading
             label="Careers"

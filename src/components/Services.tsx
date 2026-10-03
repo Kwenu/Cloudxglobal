@@ -13,7 +13,7 @@ export function Services() {
         className="pointer-events-none absolute left-1/2 top-0 h-[420px] w-[820px] -translate-x-1/2 rounded-full bg-purple-800/10 blur-[150px]"
         aria-hidden="true" />
       
-      <div className="relative mx-auto max-w-[1280px] px-5 sm:px-8">
+      <div className="relative mx-auto max-w-[1480px] px-5 sm:px-8">
         <SectionHeading
           label="What We Do"
           title={

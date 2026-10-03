@@ -7,7 +7,7 @@ import { contactDetails } from '../data/contact';
 export function Footer() {
   return (
     <footer className="w-full border-t border-white/10 bg-black">
-      <div className="mx-auto max-w-[1280px] px-5 py-16 sm:px-8 sm:py-20">
+      <div className="mx-auto max-w-[1480px] px-5 py-16 sm:px-8 sm:py-20">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Logo />
